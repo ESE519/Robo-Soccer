@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I.\mbed -I.\mbed\LPC1768 -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -DTARGET_LPC1768 -o ".\build\localizationupdate.o" --omf_browse ".\build\localizationupdate.crf" --depend ".\build\localizationupdate.d" "..\..\..\localizationUpdate.c"
