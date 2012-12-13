@@ -1,0 +1,1 @@
+--cpp -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I.\mbed -I.\mbed\LPC1768 -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\NXP\LPC17xx -DTARGET_LPC1768 -o ".\build\mrf24j40.o" --omf_browse ".\build\mrf24j40.crf" --depend ".\build\mrf24j40.d" "mrk_uvision_lpc1768\mrk\NanoRk\src\radio\mrf24j40\source\MRF24J40.cpp"

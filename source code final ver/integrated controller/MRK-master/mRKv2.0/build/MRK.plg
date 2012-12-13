@@ -1,0 +1,104 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\caizhu\Downloads\gate_2v\MRK-master\mRKv2.0\MRK.uvproj
+Project File Date:  12/04/2012
+
+<h2>Output:</h2>
+Build target 'mbed NXP LPC1768'
+compiling nrk_cpu.cpp...
+compiling nrk_status.cpp...
+compiling nrk_timer.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\hal\LPC1768\nrk_timer.cpp(177): warning:  #191-D: type qualifier is meaningless on cast type
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\hal\LPC1768\nrk_timer.cpp(298): warning:  #191-D: type qualifier is meaningless on cast type
+compiling nrk_watchdog.cpp...
+compiling nrk.cpp...
+compiling nrk_error.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_error.cpp(165): warning:  #177-D: variable "i" was declared but never referenced
+compiling nrk_events.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_events.cpp(279): warning:  #177-D: variable "task_ID" was declared but never referenced
+compiling nrk_idle_task.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_idle_task.cpp(39): warning:  #177-D: variable "stkc" was declared but never referenced
+compiling nrk_reserve.cpp...
+compiling nrk_scheduler.cpp...
+compiling nrk_stack_check.cpp...
+compiling nrk_stats.cpp...
+compiling nrk_task.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_task.cpp(230): warning:  #550-D: variable "rtype" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_task.cpp(524): warning:  #191-D: type qualifier is meaningless on cast type
+compiling nrk_time.cpp...
+compiling hal_wait.cpp...
+compiling ulib.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(338): warning:  #9-D: nested comment is not allowed
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(606): warning:  #111-D: statement is unreachable
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(657): warning:  #940-D: missing return statement at end of non-void function "nrk_get_button"
+mrk_uvision_lpc1768\mrk\NanoRk\src\platform\mbed\source\ulib.cpp(826): warning: C3017W: uClk may be used before being set
+compiling adc_driver.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(69): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(73): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(76): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(96): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\adc_driver.cpp(105): warning:  #68-D: integer conversion resulted in a change of sign
+compiling ff_basic_sensor.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(68): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(82): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(86): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(89): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(170): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(193): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(209): warning:  #68-D: integer conversion resulted in a change of sign
+mrk_uvision_lpc1768\mrk\NanoRk\src\drivers\platform\mbed\ff_basic_sensor.cpp(265): warning:  #1-D: last line of file ends without a newline
+compiling nrk_driver.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\kernel\source\nrk_driver.cpp(141): warning:  #186-D: pointless comparison of unsigned integer with zero
+compiling bmac.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(462): warning:  #550-D: variable "result" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(503): warning:  #177-D: variable "result" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(555): warning:  #550-D: variable "e" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(556): warning:  #177-D: variable "backoff" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(804): warning:  #1-D: last line of file ends without a newline
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(66): warning:  #550-D: variable "g_chan" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\src\net\bmac\bmac.cpp(72): warning:  #550-D: variable "tx_reserve" was set but never used
+compiling basic_rf.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\src\radio\mrf24j40\source\basic_rf.cpp(336): warning:  #61-D: integer operation result is out of range
+mrk_uvision_lpc1768\mrk\NanoRk\src\radio\mrf24j40\source\basic_rf.cpp(336): warning:  #68-D: integer conversion resulted in a change of sign
+compiling MRF24J40.cpp...
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(175): warning:  #177-D: variable "i" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(176): warning:  #550-D: variable "val" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(177): warning:  #550-D: variable "local_rx_buf" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(178): warning:  #177-D: variable "check_period" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(264): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(264): warning:  #177-D: variable "i" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(264): warning:  #177-D: variable "len" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(265): warning:  #177-D: variable "v" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(267): warning:  #177-D: variable "ret" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(268): warning:  #177-D: variable "r_period" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(479): warning:  #1-D: last line of file ends without a newline
+compiling beep.cpp...
+linking...
+Program Size: Code=33924 RO-data=1932 RW-data=680 ZI-data=2988  
+User command #1: fromelf --bin -o H:\MRK.bin .\build\MRK.axf
+Error: Q0108E: Could not create output file 'H:\MRK.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\MRK.axf" - 0 Error(s), 45 Warning(s).
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(175): warning:  #177-D: variable "i" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(176): warning:  #550-D: variable "val" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(177): warning:  #550-D: variable "local_rx_buf" was set but never used
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(178): warning:  #177-D: variable "check_period" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(264): warning:  #177-D: variable "j" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(264): warning:  #177-D: variable "i" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(264): warning:  #177-D: variable "len" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(265): warning:  #177-D: variable "v" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(267): warning:  #177-D: variable "ret" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(268): warning:  #177-D: variable "r_period" was declared but never referenced
+mrk_uvision_lpc1768\mrk\NanoRk\Projects\basic_bmac\main.cpp(480): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=33924 RO-data=1932 RW-data=680 ZI-data=2988  
+User command #1: fromelf --bin -o H:\MRK.bin .\build\MRK.axf
+Error: Q0108E: Could not create output file 'H:\MRK.bin': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\build\MRK.axf" - 0 Error(s), 11 Warning(s).

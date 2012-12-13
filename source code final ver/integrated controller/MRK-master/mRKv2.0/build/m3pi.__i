@@ -1,0 +1,5 @@
+--cpp -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I.\mbed -I.\mbed\LPC1768 
+-I E:\Software\Keil\ARM\RV31\INC 
+-I E:\Software\Keil\ARM\CMSIS\Include 
+-I E:\Software\Keil\ARM\Inc\NXP\LPC17xx 
+-DTARGET_LPC1768 -o ".\build\m3pi.o" --omf_browse ".\build\m3pi.crf" --depend ".\build\m3pi.d" "..\..\m3pi.cpp"
